@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+* a, * .footer .footer-info, .footer * .footer-info {
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 7.5rem;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 1.6rem;
+       column-gap: 1.6rem;
+  justify-content: center;
+}
+
+.phone-img {
+  width: 20rem;
+  height: 25.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-img {
+  width: 6.6rem;
+  height: 1.9rem;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.form-box {
+  margin-top: auto;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 15.5rem;
+  height: 18rem;
+}
+.form-box .insta-logo {
+  width: 9rem;
+  height: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+.form-box input {
+  font-size: 0.7em;
+  height: 1.5rem;
+  margin: 0.3rem;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-direction: row;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 1px solid #dbdbdb;
+}
+.form-box #login-input {
+  color: white;
+  background-color: rgba(0, 148, 246, 0.815);
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form-box #or-text {
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a7a7a7;
+  margin-bottom: 1rem;
+}
+.form-box #facebook-link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  color: #3670bb;
+  margin-bottom: 1rem;
+}
+.form-box #forgot-password {
+  color: #0e4272;
+  font-size: 0.6rem;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input::-moz-placeholder {
+  padding-left: 0.5rem;
+}
+
+input:-ms-input-placeholder {
+  padding-left: 0.5rem;
+}
+
+input::placeholder {
+  padding-left: 0.5rem;
+}
+
+.create-acc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -moz-column-gap: 0.2rem;
+       column-gap: 0.2rem;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  height: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+}
+.create-acc a, .create-acc .footer .footer-info, .footer .create-acc .footer-info {
+  font-weight: bold;
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.obtain-app {
+  text-decoration: none;
+  text-align: center;
+}
+.obtain-app p {
+  padding-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+.footer .anchor-links {
+  margin-left: 22%;
+  margin-right: 22%;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  display: flex;
+  flex: row;
+  row-gap: 0.5rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  justify-content: center;
+}
+.footer a, .footer .footer-info {
+  color: #8e8e8e;
+  text-decoration: none;
+  font-size: 0.55rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .footer-info {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+@media (max-width: 620px) {
+  .phone-img {
+    display: none;
+  }
+  .main {
+    gap: 0;
+    margin-top: 3rem;
+  }
+}/*# sourceMappingURL=style.css.map */
